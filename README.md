@@ -14,4 +14,8 @@ Outline
 
 Wireframes
 1. Homepage
-![Homepage Wireframe](https://user-images.githubusercontent.com/112594540/189560047-ba9a8178-8c82-4984-bee2-48c10e5810c4.jpg)
+![Homepage Wireframe (basic - no bg image, Calibri font)](https://user-images.githubusercontent.com/112594540/189650436-b564316e-1ab0-415b-a154-c1cc9b1e214a.jpg)
+*Hyperlinks to subpages are the images above the labels.
+
+2. Subpage 1 (The Different Labels)
+![Subpage 1 The Different Labels Wireframe (basic)](https://user-images.githubusercontent.com/112594540/189651275-a42625b6-343e-45e4-800c-00c2b3bf1e30.jpg)
