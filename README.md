@@ -11,3 +11,7 @@ Outline
 4. Homophobia - prejudice against the community
 5. Materials/Media for Further Awareness - reliable and truthful sites to gain more relevant information about the community
                                          - movies and TV shows with strong LGBTQIA+ themes 
+
+Wireframes
+1. Homepage
+![Homepage Wireframe](https://user-images.githubusercontent.com/112594540/189560047-ba9a8178-8c82-4984-bee2-48c10e5810c4.jpg)
