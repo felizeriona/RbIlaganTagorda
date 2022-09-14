@@ -2,7 +2,7 @@
 
 Working Title - The Rainbow Flag
 
-Description - A website that raises awareness on the LGBT community. It includes the definitions of terms covered under the umbrella, well-known figures, prejudices against the community, and popular media that spreads awareness on the topic.
+Description - A website that promotes awareness on the LGBT community. It includes the definitions of terms covered under the umbrella: including sexualities, gender identities, and culturally similar terms. A list of well-known figures either shown in fiction or reality. It also portrays prejudice towards the community in several countries, but more centered on the Philippines. Finally, popular media, be it books or television, that spreads awareness on the topic by depicting queer themes.
 
 Outline
 1. Homepage
