@@ -18,9 +18,10 @@ Wireframes
 *Hyperlinks to subpages are the images above the labels.
 
 2. Subpage 1 (The Different Labels)
-![Subpage 1 The Different Labels Wireframe (basic)](https://user-images.githubusercontent.com/112594540/189651275-a42625b6-343e-45e4-800c-00c2b3bf1e30.jpg)
+![Subpage 1 The Different Labels Wireframe](https://user-images.githubusercontent.com/112594540/190284739-1d464b67-5a4f-4bdd-997f-4f55780b32a4.png)
 
-3. Subpage 3 (Famous LGBTQIA+ Icons)
-![wireframe_subpage2_famous icons](https://user-images.githubusercontent.com/112594483/190281059-d045fb40-e166-4031-9918-1d9b0c18a471.jpg)
+3. Subpage 2 (Famous LGBTQIA+ Icons)
+![Subpage 2 Icons Wireframe](https://user-images.githubusercontent.com/112594540/190284263-4cf2ed75-53a0-4946-b36d-fb2140a368f8.png)
+
 
 
