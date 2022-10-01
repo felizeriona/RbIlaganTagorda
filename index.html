@@ -1,117 +1,130 @@
 <DOCTYPE html>
-<html>
-<head>
-<title>The Rainbow Flag Homepage</title>
+  <html>
 
-<meta charset="UTF-8">
-<meta name="author" content="Felize Riona G. Ilagan, Sofia Alessandra L. Tagorda">
-<meta name="keywords" content="HTML, CSS, JavaScript">
-<meta name="revised" content="24-09-2022">
+  <head>
+    <title>The Rainbow Flag Homepage</title>
 
-<style> 
-div.container { 
-  background-image: url("Homepage backdrop resized.jpg");
-  background-attachment: scrolled;
-  margin:0;
-  opacity: 0.2;
-}
+    <meta charset="UTF-8">
+    <meta name="author" content="Felize Riona G. Ilagan, Sofia Alessandra L. Tagorda">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="revised" content="01-10-2022">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
 
-h1 {
-  font-size: 40px;
-  font-family: "Rozha One", serif;
-}
-  
-p {
-  text-align: center;
-}
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rozha+One&display=swap');
+      
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
 
-.container {
-  position: relative;
-  text-align: center;  
-}
+      div.container {
+        background-image: url("Homepage backdrop resized.jpg");
+        background-attachment: scrolled;
+        margin: 0;
+        opacity: 0.2;
+      }
 
-.top-left {
-  position: absolute;
-  top: 100px;
-  left: 300px;
-}
-    
-.top-right {
-  position: absolute;
-  top: 130px;
-  right: 300px;
-}
-    
-.bottom-left {
-  position: absolute;
-  bottom: 50px;
-  left: 300px;
-}
-    
-.bottom-right {
-  position: absolute;
-  bottom:75px;
-  right: 300px;
-}
-  
-.centered {
-  position: absolute;
-  top: 3%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-</style>
-</head>
+      h1 {
+        font-size: 40px;
+        font-family: 'Playfair Display', serif;
+        font-family: 'Rozha One', serif;
+      }
+      
+      p {
+        text-align: center;
+        font-family: "Playfair Display", serif;
+      }
 
-<body>
-  
-  <div class="container">
-    <img src="images/Homepage backdrop resized.jpg">
-  </div>
-  
-  <div class="centered">
-    <h1><</h1>
-    <h1>The Rainbow Flag</h1>
-    <img src="Homepage backdrop resized.jpg">
-  </div>
-  
-  <div class="top-left">
-    <a href="files/1 The Different Labels.html">
-      <img src="images/Labels.png" alt="Flags of the LGBTQ Community" height="250px" width="250px">
-    </a>
-    <p>
-      The Different Labels
-    </p>
-  </div>
-  
-  <div class="top-right">
-    <a href="files/2 Famous LGBTQIA+ Icons.html">
-      <img src="images/Icons.jpg" alt="Collection of Queer Icons" height="166px" width="250px">
-    </a>
-    <p>
-      Famous LGBTQIA+ Icons
-    </p>
-  </div>
-    
-  <div class="bottom-left">
-    <a href="files/3 Homophobia.html">
-      <img src="images/Homophobia.jpg" alt="Protesters Fighting for LGBT Rights" height="166px" width="250px">
-    </a>
-    <p>
-      Homophobia
-    </p>
-  </div>
-  
-  <div class="bottom-right">
-    <a href="files/4 Media & Materials.html">
-      <img src="images/Media.jpg" alt="Queer Media Shown on Television" height="125px" width="250px">
-    </a>
-    <p>
-      Materials/Media for Further Awareness
-    </p>
-  </div>
+      .container {
+        position: relative;
+        text-align: center;
+      }
 
+      .top-left {
+        position: absolute;
+        top: 110px;
+        left: 300px;
+      }
 
-</body>
+      .top-right {
+        position: absolute;
+        top: 110px;
+        right: 300px;
+      }
 
-</html>
+      .bottom-left {
+        position: absolute;
+        bottom: 0px;
+        left: 300px;
+      }
+
+      .bottom-right {
+        position: absolute;
+        bottom: 0px;
+        right: 270px;
+      }
+
+      .centered {
+        position: absolute;
+        top: 3%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <img src="images/Homepage backdrop resized.jpg">
+    </div>
+
+    <div class="centered">
+          <br>
+          <br>
+          <h1>The Rainbow Flag</h1>
+          <img src="Homepage backdrop resized.jpg">
+    </div>
+
+    <div class="top-left">
+      <a href="htdocs/1 The Different Labels.html">
+        <img src="images/Labels.png" alt="Flags of the LGBTQ Community" height="180px" width="250px">
+      </a>
+      <p>
+        The Different Labels
+      </p>
+    </div>
+
+    <div class="top-right">
+      <a href="htdocs/2 Famous LGBTQIA+ Icons.html">
+        <img src="images/Icons.jpg" alt="Collection of Queer Icons" height="180px" width="250px">
+      </a>
+      <p>
+        Famous LGBTQIA+ Icons
+      </p>
+    </div>
+
+    <div class="bottom-left">
+      <a href="htdocs/3 Homophobia.html">
+        <img src="images/Homophobia.jpg" alt="Protesters Fighting for LGBT Rights" height="166px" width="250px">
+      </a>
+      <p>
+        Homophobia
+      </p>
+    </div>
+
+    <div class="bottom-right">
+      <a href="htdocs/4 Media & Materials.html">
+        <img src="images/Media.jpg" alt="Queer Media Shown on Television" height="166px" width="250px">
+      </a>
+      <p>
+        Materials/Media for Further Awareness
+      </p>
+    </div>
+
+  </body>
+
+  </html>
