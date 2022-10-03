@@ -37,6 +37,46 @@
         font-family: "Playfair Display", serif;
       }
 
+      a {
+        text-decoration: none;
+      }
+      
+      li {
+        list-style: none;
+      }
+
+      
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+        background-color: #192851;
+        color: #fff;
+      }
+      .nav-links a {
+        color: #fff;
+      }
+      
+      .logo {
+        font-size: 25px;
+        font-family: 'Rozha One', serif;
+      }
+      
+      .menu {
+        display: flex;
+        gap: 1em;
+        font-size: 18px;
+      }
+      .menu li:hover {
+        background-color: #152238;
+        border-radius: 5px;
+        transition: 0.3s ease;
+      }
+      .menu li {
+        padding: 5px 15px;
+      }
+      
       .container {
         position: relative;
         text-align: center;
@@ -78,6 +118,32 @@
 
   <body>
 
+    <nav class="navbar">
+     
+     <div class="logo">ㅤㅤThe Rainbow Flag</div>
+     
+     <ul class="nav-links"
+       
+       <div class="menu">
+         <li>
+           <a href="index.html">Home</a>
+         </li>
+         <li>
+           <a href="htdocs/1 The Different Labels.html">The Different Labels</a>
+         </li>
+         <li>
+           <a href="htdocs/2 Famous LGBTQIA+ Icons.html">Famous LGBTQIA+ Icons</a>
+         </li>
+         <li>
+           <a href="htdocs/3 Homophobia.html">Homophobia</a>
+         </li>
+         <li>
+           <a href="htdocs/4 Media and Materials.html">Media & Materials for Awareness</a>
+         </li>
+       </div>
+     </ul>
+    </nav>
+    
     <div class="container">
       <img src="images/Homepage backdrop resized.jpg">
     </div>
