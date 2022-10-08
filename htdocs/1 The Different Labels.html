@@ -6,17 +6,175 @@
     <meta charset="UTF-8">
     <meta name="author" content="Felize Riona G. Ilagan, Sofia Alessandra L. Tagorda">
     <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="revised" content="29-09-2022">
+    <meta name="revised" content="03-10-2022">
 
-  <style> 
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rozha+One&display=swap');
+    
+    body{
+      background-color: #F1E9D8;
+    }
+
+    h1
+    {
+        text-align: center;
+        font-family: 'Rozha One', serif;
+    }
+
+    h4 {
+        font-size: 19px;
+        font-weight: bolder;
+    }
+
+    .introduction {
+        font-family: 'Playfair Display', serif;
+    }
+
+    th, td {
+        padding: 15px;
+    }
+
+    th {
+        font-size: 25px;
+    }
+
+    td {
+        font-family: 'Georgia', serif;
+        font-size: 17px;      
+    }
+      li {
+          font-size: 15px;
+          font-family: 'Playfair Display', serif;
+          font-family: 'Rozha One', serif;
+          list-style: none;
+      }
+      
+      p {
+          text-align: justify;
+          font-family: "Playfair Display", serif;
+          font-style: italic;
+      }
+    
+      a {
+          text-decoration: none;
+      }
+      
+
+    /* NAVBAR STYLING STARTS */
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+        background-color: #192851;
+        color: #fff;
+      }
+      .nav-links a {
+        color: #fff;
+      }
+      /* LOGO */
+      .logo {
+        font-size: 25px;
+        font-family: 'Rozha One', serif;
+      }
+      /* NAVBAR MENU */
+      .menu {
+        display: flex;
+        gap: 1em;
+        font-size: 18px;
+      }
+      .menu li:hover {
+        background-color: #152238;
+        border-radius: 5px;
+        transition: 0.3s ease;
+      }
+      .menu li {
+        padding: 5px 15px;
+      }
   </style>
   
 </head>
 
 <body>
-    <p>
-      test page 1
-    </p>
+  <nav class="navbar">
+     <!-- LOGO -->
+     <div class="logo">ㅤㅤThe Rainbow Flag</div>
+     <!-- NAVIGATION MENU -->
+     <ul class="nav-links"
+       <!-- NAVIGATION MENUS -->
+       <div class="menu">
+         <li>
+           <a href="../index.html">Home</a>
+         </li>
+         <li>
+           <a href="1 The Different Labels.html">The Different Labels</a>
+         </li>
+         <li>
+           <a href="2 Famous LGBTQIA+ Icons.html">Famous LGBTQIA+ Icons</a>
+         </li>
+         <li>
+           <a href="3 Homophobia.html">Homophobia</a>
+         </li>
+         <li>
+           <a href="4 Media and Materials.html">Media & Materials for Awareness</a>
+         </li>
+       </div>
+     </ul>
+    </nav>
+
+    <div class="introduction">
+    <h1> The Different Labels </h1>
+  
+    <h4> About the Subpage </h4>
+    <p> This section discusses the different labels, sexualities, and identities under the umbrella term LGBTQIA+. Note that this is neither a complete nor extensive list as many other identities develop and may change terms as time passes. To be safe, simply ask people what they want to be referred to as and what label they are under. </p>
+
+    <br>
+  
+    <h4> Difference between Sexual Orientation and Gender </h4>
+    <p> Sexual orientation defines a person’s attraction to others, be it physical, emotional, or romantic. On the other hand, gender is how a person views themselves internally, whether feminine, masculine or in between, through their sensation of their body, speech, mannerisms, clothing, etc.</p>
+    </div>
+    <br><br>
+  
+    <div class="table">
+      <table style="border:1px solid black; margin-left: auto; margin-right: auto;">
+        <tr>
+          <th style="border-style: solid; border-width: 1px; border-color: black"> Label </th>
+          <th style="border-style: solid; border-width: 1px; border-color: black"> Definition </th>
+          <th style="border-style: solid; border-width: 1px; border-color: black"> Flag </th>
+        </tr>
+    
+        <tr>
+          <td style="border-style: solid; border-width: 1px; border-color: black"> Lesbian </td>
+          <td style="border-style: solid; border-width: 1px; border-color: black; text-align: center"> A woman who is emotionally, romantically or sexually attracted to other women </td>
+        <td style="border-style: solid; border-width: 1px; border-color: black"> <img src="/images/Flag Lesbian.png" width="120px" height="70px" horizontal-align="center"> </td>
+        </tr>
+        
+        <tr>
+          <td style="border-style: solid; border-width: 1px; border-color: black"> Gay </td>
+          <td style="border-style: solid; border-width: 1px; border-color: black; text-align: center"> A person who is emotionally, romantically or sexually attracted to people of the same sex; commonly used to describe men </td>
+          <td style="border-style: solid; border-width: 1px; border-color: black"> <img src="/images/Flag Gay.png" width="120px" height="70px" horizontal-align="center"> </td>
+        </tr>
+
+        <tr>
+          <td style="border-style: solid; border-width: 1px; border-color: black"> Bisexual </td>
+          <td style="border-style: solid; border-width: 1px; border-color: black; text-align: center"> A person who is emotionally or sexually attracted to more than one gender </td>
+          <td style="border-style: solid; border-width: 1px; border-color: black"> <img src="/images/Flag Bisexual.png" width="120px" height="70px" horizontal-align="center"> </td>
+        </tr>
+
+        <tr>
+          <td style="border-style: solid; border-width: 1px; border-color: black"> Pansexual </td>
+          <td style="border-style: solid; border-width: 1px; border-color: black; text-align: center"> A person who can be attracted to anyone, regardless of their gender identity </td>
+          <td style="border-style: solid; border-width: 1px; border-color: black"> <img src="/images/Flag Pansexual.png" width="120px" height="70px" horizontal-align="center"> </td>
+        </tr>
+
+        <tr>
+          <td style="border-style: solid; border-width: 1px; border-color: black"> Transgender </td>
+          <td style="border-style: solid; border-width: 1px; border-color: black; text-align: center"> A person whose gender identity differs from the sex they were assigned at birth </td>
+          <td style="border-style: solid; border-width: 1px; border-color: black"> <img src="/images/Flag Transgender.png" width="120px" height="70px" horizontal-align="center"> </td>
+        </tr>
+</table>
+    </div>
 </body>
 
 </html>
