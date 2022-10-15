@@ -6,17 +6,192 @@
     <meta charset="UTF-8">
     <meta name="author" content="Felize Riona G. Ilagan, Sofia Alessandra L. Tagorda">
     <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="revised" content="01-10-2022">
+    <meta name="revised" content="01-15-2022">
 
-  <style> 
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rozha+One&display=swap');
+    
+    html, body{
+        background-color: aliceblue;
+        width: 99.5%;
+        height: 100%;
+    }
+
+    * { box-sizing: border-box;}
+
+    h1
+    {
+        text-align: center;
+        font-family: 'Rozha One', serif;
+    }
+
+    h4 {
+        font-size: 19px;
+        font-weight: bolder;
+    }
+
+    .introduction {
+        font-family: 'Playfair Display', serif;
+    }
+
+    .content {
+        font-family: 'Georgia', serif;
+        
+    }
+    .content div {
+        padding: 10px;
+        overflow: hidden;
+    }
+    
+    .content p {
+        font-style: normal;
+    }
+    
+    img {
+      width: 200px;
+      height: 200px;
+      border: 2px solid black;
+    }
+    
+    #icon1 img, #icon3 img, #icon5 img {
+      float: left;
+      margin-right: 10px;
+    }
+
+    #icon2 img, #icon4 img{
+      float: right;
+      margin-left: 10px;
+    }
+    
+     #icon2 p, #icon2 h4, #icon4 p, #icon4 h4 {
+       text-align: right;
+     }
+
+    /*Navbar content start*/
+    li {
+          font-size: 15px;
+          font-family: 'Playfair Display', serif;
+          font-family: 'Rozha One', serif;
+          list-style: none;
+      }
+      
+    p {
+        text-align: justify;
+        font-family: "Playfair Display", serif;
+        font-style: italic;
+      }
+
+    a {
+          text-decoration: none;
+      }
+    /*Navbar content start*/
+    
+    /* NAVBAR STYLING STARTS */
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+        background-color: #192851;
+        color: #fff;
+      }
+      .nav-links a {
+        color: #fff;
+      }
+      /* LOGO */
+      .logo {
+        font-size: 25px;
+        font-family: 'Rozha One', serif;
+      }
+      /* NAVBAR MENU */
+      .menu {
+        display: flex;
+        gap: 1em;
+        font-size: 18px;
+      }
+      .menu li:hover {
+        background-color: #152238;
+        border-radius: 5px;
+        transition: 0.3s ease;
+      }
+      .menu li {
+        padding: 5px 15px;
+      }
+    
   </style>
   
 </head>
 
 <body>
-    <p>
-      test page 2
-    </p>
+
+  <nav class="navbar">
+     <!-- LOGO -->
+     <div class="logo">ㅤㅤThe Rainbow Flag</div>
+     <!-- NAVIGATION MENU -->
+     <ul class="nav-links"
+       <!-- NAVIGATION MENUS -->
+       <div class="menu">
+         <li>
+           <a href="../index.html">Home</a>
+         </li>
+         <li>
+           <a href="1 The Different Labels.html">The Different Labels</a>
+         </li>
+         <li>
+           <a href="2 Famous LGBTQIA+ Icons.html">Famous LGBTQIA+ Icons</a>
+         </li>
+         <li>
+           <a href="3 Homophobia.html">Homophobia</a>
+         </li>
+         <li>
+           <a href="4 Media and Materials.html">Media & Materials for Awareness</a>
+         </li>
+       </div>
+     </ul>
+    </nav>
+  
+    <div class="introduction">
+    <h1> Famous LGBTQIA+ Icons </h1>
+  
+    <h4> About the Subpage </h4>
+    <p> This section discusses some famous LGBTQIA icons, their lives, and their impact on the community. It will mostly focus on queer Filipinos and historical figures that led movements.</p>
+    </div>
+
+  <br><br>
+
+    <div class="content">
+      <div id="icon1">
+        <img src="../images/Bretman Rock.jpg">
+        <h4>Bretman Rock</h4>
+        <p> Bretman Rock Sacayanan Laforga is a gay Filipino beauty influencer, his most successful accounts being on Youtube and Instagram. One of the few men in the beauty industry, he is an Ilocano born in the Philippines but moved to Hawaii as a child, where he is now based. Known for his flamboyant personality and sense of humor, he became famous when one of his makeup contour videos went viral. Despite his social media repertoire mainly consisting of makeup tutorials and vlogs featuring his humorous life views, the influencer has also long been considered an icon of the LGBTQIA+ community. His confidence in being who he is and not hiding his sexuality for any reason serves as an inspiration, most especially to those in the community. </p>
+      </div>
+
+      <div id="icon2">
+        <img src="../images/Geraldine Roman.jpeg">
+        <h4>Geraldine Roman</h4>
+        <p> The Philippines’ first transgender congresswoman, Geraldine Roman is an advocate for LGBTQIA+ equality through her political projects. Elected as Representative of Bataan’s 1st District in 2016, she became chairperson of the House Committee on Women and Gender Equality in 2022. Furthermore, in the 18th Congress, she was one of those termed “equality champs” who pushed for the passing of the SOGIE equality bill, which would greatly impact LGBTQIA+ rights in a predominantly Catholic country. Together with the House Speaker, she filed the Civil Partnership Bill, a House Bill that would legalize even same-sex civil unions. </p>
+      </div>
+
+      <div id="icon3">
+        <img src="../images/placeholder.jpg">
+        <h4>Name3</h4>
+        <p> description</p>
+      </div>
+      
+      <div id="icon4">
+        <img src="../images/placeholder.jpg">
+        <h4>Name4</h4>
+        <p> description</p>
+      </div>
+
+      <div id="icon5">
+        <img src="../images/placeholder.jpg">
+        <h4>Name5</h4>
+        <p> description</p>
+      </div>
+      
+    </div>
 </body>
 
 </html>
