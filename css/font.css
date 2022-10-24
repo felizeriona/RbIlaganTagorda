@@ -1,12 +1,2 @@
-@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap')
-
-
-h1 {
-  font-size: 40px;
-  font-family: "Rozha One", serif;
-}
-
-p {
-  text-align: center;
-  font-family: "Playfair Display"'", serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rozha+One&display=swap');
