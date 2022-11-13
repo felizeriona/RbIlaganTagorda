@@ -1,0 +1,80 @@
+html, body{
+        background-color: aliceblue;
+        width: 99.5%;
+        height: 100%;
+    }
+
+    * { box-sizing: border-box;}
+
+    h1
+    {
+        text-align: center;
+        font-family: 'Rozha One', serif;
+    }
+
+    h4 {
+        font-size: 19px;
+        font-weight: bolder;
+    }
+
+    .introduction {
+        font-family: 'Playfair Display', serif;
+    }
+
+    .content {
+        font-family: 'Georgia', serif;
+        
+    }
+    .content div {
+        padding: 10px;
+        overflow: hidden;
+    }
+    
+    .content p {
+        font-style: normal;
+    }
+    
+    img {
+      width: 200px;
+      height: 200px;
+      border: 2px solid black;
+    }
+    
+    #icon1 img, #icon3 img, #icon5 img {
+      float: left;
+      margin-right: 10px;
+    }
+
+    #icon2 img, #icon4 img{
+      float: right;
+      margin-left: 10px;
+    }
+    
+     #icon2 p, #icon2 h4, #icon4 p, #icon4 h4 {
+       text-align: right;
+     }
+
+    footer p {
+      text-align: left;
+      background-color: beige;
+      color: black;
+      font-size: 80%;
+    }
+
+    /*Navbar content start*/
+    li {
+          font-size: 15px;
+          font-family: 'Playfair Display', serif;
+          font-family: 'Rozha One', serif;
+          list-style: none;
+      }
+      
+    p {
+        text-align: justify;
+        font-family: "Playfair Display", serif;
+      }
+
+    a {
+          text-decoration: none;
+      }
+    
