@@ -1,0 +1,66 @@
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      div.container {
+        background-image: url("Homepage backdrop resized.jpg");
+        background-attachment: scrolled;
+        margin: 0;
+        opacity: 0.2;
+      }
+
+      li {
+        font-size: 15px;
+        font-family: 'Playfair Display', serif;
+        font-family: 'Rozha One', serif;
+      }
+      
+      p {
+        text-align: center;
+        font-family: "Playfair Display", serif;
+      }
+
+      a {
+        text-decoration: none;
+      }
+      
+      li {
+        list-style: none;
+      }
+
+      .container {
+        position: relative;
+        text-align: center;
+      }
+
+      .top-left {
+        position: absolute;
+        top: 110px;
+        left: 300px;
+      }
+
+      .top-right {
+        position: absolute;
+        top: 110px;
+        right: 300px;
+      }
+
+      .bottom-left {
+        position: absolute;
+        bottom: 0px;
+        left: 300px;
+      }
+
+      .bottom-right {
+        position: absolute;
+        bottom: 0px;
+        right: 270px;
+      }
+
+      .centered {
+        position: absolute;
+        top: 3%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
