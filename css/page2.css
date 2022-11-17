@@ -21,6 +21,10 @@ html, body{
         font-family: 'Playfair Display', serif;
     }
 
+    .introduction p {
+      font-style: italic;
+    }
+
     .content {
         font-family: 'Georgia', serif;
         
