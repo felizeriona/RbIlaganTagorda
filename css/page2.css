@@ -37,7 +37,7 @@ html, body{
     .content p {
         font-style: normal;
     }
-    
+   
     img {
       width: 200px;
       height: 200px;
@@ -47,6 +47,91 @@ html, body{
     #icon1 img, #icon3 img, #icon5 img {
       float: left;
       margin-right: 10px;
+    }
+
+    .i1_twt, .i1_yt, .i1_ig {
+      float: left;
+    }
+
+    .i1_twt {
+      background: url('../images/socmed_icons.jfif') no-repeat -38px -60px;
+      width: 45px;
+      height: 45px;
+    }
+    .i1_twt:hover {
+      background: url('../images/socmed_icons.jfif') no-repeat -109px -60px;
+      width: 45px;
+      height: 45px;
+    }
+
+    .i1_yt {
+      background: url('../images/socmed_icons.jfif') no-repeat -38px -232px;
+      width: 45px;
+      height: 45px;
+    }
+    .i1_yt:hover {
+      background: url('../images/socmed_icons.jfif') no-repeat -109px -232px;
+      width: 45px;
+      height: 45px;
+    }
+
+    .i1_ig {
+      background: url('../images/socmed_icons.jfif') no-repeat -332px -60px;
+      width: 45px;
+      height: 45px;
+    }
+    .i1_ig:hover {
+      background: url('../images/socmed_icons.jfif') no-repeat -403px -60px;
+      width: 45px;
+      height: 45px;
+    }
+
+    .i2_twt, .i2_yt, .i2_ig, .i2_fb {
+      float: right;
+    }
+
+    .i2_twt {
+      background: url('../images/socmed_icons.jfif') no-repeat -38px -60px;
+	    width: 45px;
+    	height: 45px;
+    }
+    .i2_twt:hover {
+      background: url('../images/socmed_icons.jfif') no-repeat -109px -60px;
+	    width: 45px;
+    	height: 45px;
+    }
+
+    .i2_yt {
+	    background: url('../images/socmed_icons.jfif') no-repeat -38px -232px;
+	    width: 45px;
+    	height: 45px;
+    }
+    .i2_yt:hover {
+	    background: url('../images/socmed_icons.jfif') no-repeat -109px -232px;
+	    width: 45px;
+    	height: 45px;
+    }
+
+    .i2_ig {
+	    background: url('../images/socmed_icons.jfif') no-repeat -332px -60px;
+	    width: 45px;
+    	height: 45px;
+    }
+    .i2_ig:hover {
+	    background: url('../images/socmed_icons.jfif') no-repeat -403px -60px;
+    	width: 45px;
+    	height: 45px;
+    }
+
+    .i2_fb {
+	    background: url('../images/socmed_icons.jfif') no-repeat -332px -232px;
+	    width: 45px;
+    	height: 45px;
+    }
+    .i2_fb:hover {
+	    background: url('../images/socmed_icons.jfif') no-repeat -403px -232px;
+	    width: 45px;
+    	height: 45px;
     }
 
     #icon2 img, #icon4 img{
